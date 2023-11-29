@@ -8,7 +8,7 @@ const Screen1 = ({ navigation }) => {
 
   useFocusEffect(
     React.useCallback(() => {
-      // Start the counter when the screen is focused
+      // Initiize the counter when the screen is focused
       pauseCounter()
       // Clean up the counter when the screen is unfocused
       return () => {
