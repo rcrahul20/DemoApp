@@ -10,8 +10,16 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-community/viewpager": "^5.0.11",
+    "@react-navigation/native": "^6.0.2",
+    "@react-navigation/native-stack": "^6.0.6",
     "react": "18.2.0",
-    "react-native": "0.72.7"
+    "react-native": "0.72.7",
+    "react-native-context-api": "^1.0.7",
+    "react-native-gesture-handler": "^1.6.1",
+    "react-native-safe-area-context": "3.2.0",
+    "react-native-screens": "~3.4.0",
+    "react-native-web": "~0.13.12"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
